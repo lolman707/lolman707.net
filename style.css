@@ -20,7 +20,7 @@ body {
 
 #navbar a,
 #navbar a:visited {
-    font-family: 'Lucida Sans';
+    font-family: 'Lucida Sans Regular';
     color: #7a7a7a;
     font-weight: 300;
     font-size: 16px;
@@ -35,29 +35,27 @@ body {
 
 #textwall h1 {
     color: #FFFFFF;
-    font-family: 'Lucida Sans';
+    font-family: 'Lucida Sans Regular';
 }
 
-#textwall p,
-#textwall li {
+#textwall p {
     color: rgb(202, 202, 202) !important;
-    font-family: Calibri;
-}
-
-#textwall li a,
-#textwall li a:visited {
-    color: #2e82ff;
+    font-family: 'Lucida Sans Regular';
 }
 
 #HCB_comment_box {
+    color: #FFFFFF;
     width: 700px;
     margin: auto;   
-}
-
-#HCB_comment_box span {
-    color: #FFFFFF;
 }
 
 #HCB_comment_box h3 {
     font-size: 0px;
 }
+
+@font-face {
+    font-family: 'Lucida Sans Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Lucida Sans Regular'), url('/stuff/LSANS.woff') format('woff');
+    }
