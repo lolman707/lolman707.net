@@ -54,6 +54,10 @@ body {
     margin: auto;   
 }
 
+#HCB_comment_box span {
+    color: #FFFFFF;
+}
+
 #HCB_comment_box h3 {
     font-size: 0px;
 }
