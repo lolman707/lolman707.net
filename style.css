@@ -51,8 +51,8 @@ body {
     font-family: 'Lucida Sans Regular';
 }
 
-#textwall ul a,
-#textwall ul a:visited {
+#textwall a,
+#textwall a:visited {
     line-height: 1.5;
     list-style: none;
     font-family: 'Lucida Sans Regular';
