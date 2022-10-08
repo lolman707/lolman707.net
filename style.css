@@ -1,85 +1,71 @@
 body {
-    background: #000000;
-    padding: 200px 0;
-    text-align: center;
-    align-content: center;
-    align-items: center;
+  background: #000;
+  padding: 200px 0;
+  text-align: center;
+  align-content: center;
+  align-items: center;
 }
-
-#dotcom a,
-#dotcom a:visited {
-    font-size: 68px;
-    color: #ff6800;
-    text-decoration: none;
-    font-family: 'Lucida Sans Typewriter';
+#dotcom a, #dotcom a:visited {
+  font-size: 68px;
+  color: #ff6800;
+  text-decoration: none;
+  font-family: 'Lucida Sans Typewriter';
 }
-
 #navbar {
-    width: 100%;
-    margin: 0 auto;
-    overflow: hidden;
-    display: inline-block;
-    padding: 8px 3px;
-    list-style: none outside none;
-    letter-spacing: 3px;
-    font-weight: normal;
-    font-size: 74px;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  display: inline-block;
+  padding: 8px 3px;
+  list-style: none outside none;
+  letter-spacing: 3px;
+  font-weight: normal;
+  font-size: 74px;
 }
-
-#navbar a,
-#navbar a:visited {
-    font-family: 'Lucida Sans Regular';
-    color: #bbbbbb;
-    font-weight: 300;
-    font-size: 16px;
-    text-transform: uppercase;
-    text-decoration: none;
+#navbar a, #navbar a:visited {
+  font-family: 'Lucida Sans Regular';
+  color: #bbb;
+  font-weight: 300;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
 }
-
-#navbar a:hover,
-#navbar #navc {
-    color: #ffffff;
+#navbar a:hover, #navbar #navc {
+  color: #fff;
 }
-
 #textwall h1 {
-    color: #ffffff;
-    font-family: 'Lucida Sans Regular';
+  color: #fff;
+  font-family: 'Lucida Sans Regular';
 }
-
-#textwall p {
-    color: rgb(222, 222, 222) !important;
-    font-family: 'Lucida Sans Regular';
+#textwall p, li {
+  color: #dedede !important;
+  font-family: 'Lucida Sans Regular';
 }
-
-#textwall a,
-#textwall a:visited {
-    line-height: 1.5;
-    list-style: none;
-    font-family: 'Lucida Sans Regular';
-    color: #2e82ff;
-    text-decoration: none;
+#textwall a, #textwall a:visited {
+  line-height: 1.5;
+  list-style: none;
+  font-family: 'Lucida Sans Regular';
+  color: #2e82ff;
+  text-decoration: none;
 }
-
 #HCB_comment_box {
-    color: #ffffff;
-    width: 700px;
-    margin: auto;   
+  color: #fff;
+  width: 700px;
+  margin: auto;   
 }
-
 #HCB_comment_box h3 {
-    font-size: 0px;
+  font-size: 0px;
 }
 
 @font-face { 
-    font-family: "Lucida Sans Regular";
-    font-style: normal;
-    font-weight: normal;
-    src: url(/stuff/fonts/LSANS.woff);
+  font-family: "Lucida Sans Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url(/stuff/fonts/LSANS.woff);
 }
-
 @font-face { 
-    font-family: "Lucida Sans Typewriter";
-    font-style: normal;
-    font-weight: normal;
-    src: url(/stuff/fonts/LTYPE.woff);
+  font-family: "Lucida Sans Typewriter";
+  font-style: normal;
+  font-weight: normal;
+  src: url(/stuff/fonts/LTYPE.woff);
 }
