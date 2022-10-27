@@ -5,13 +5,13 @@ body {
   align-content: center;
   align-items: center;
 }
-#dotcom a, #dotcom a:visited {
+#dotNet a, #dotNet a:visited {
   font-size: 68px;
   color: #ff6800;
   text-decoration: none;
   font-family: 'Lucida Sans Typewriter';
 }
-#navbar {
+#navBar {
   width: 100%;
   margin: 0 auto;
   overflow: hidden;
@@ -22,7 +22,7 @@ body {
   font-weight: normal;
   font-size: 74px;
 }
-#navbar a, #navbar a:visited {
+#navBar a, #navBar a:visited, #dotComLink a, #dotComLink a:visited {
   font-family: 'Lucida Sans Regular';
   color: #bbb;
   font-weight: 300;
@@ -30,18 +30,26 @@ body {
   text-transform: uppercase;
   text-decoration: none;
 }
-#navbar a:hover, #navbar #navc {
+#navBar a:hover, #navBar #navc, #dotComLink a:hover {
   color: #fff;
 }
-#textwall h1 {
+#dotComLink {
+  text-align: right !important;
+  position: fixed;
+  bottom: 0pt; 
+  right: 0pt;
+  padding: 24px;
+  letter-spacing: 2px;
+}
+#textWall h1 {
   color: #fff;
   font-family: 'Lucida Sans Regular';
 }
-#textwall p, li {
+#textWall p, li {
   color: #dedede !important;
   font-family: 'Lucida Sans Regular';
 }
-#textwall a, #textwall a:visited {
+#textWall a, #textWall a:visited {
   line-height: 1.5;
   list-style: none;
   font-family: 'Lucida Sans Regular';
@@ -51,12 +59,14 @@ body {
 #HCB_comment_box {
   color: #fff;
   width: 700px;
-  margin: auto;   
+  margin: auto;
+}
+#HCB_comment_box [id*="replies"] {
+  padding-right: 30px;
 }
 #HCB_comment_box h3 {
   font-size: 0px;
 }
-
 @font-face { 
   font-family: "Lucida Sans Regular";
   font-style: normal;
