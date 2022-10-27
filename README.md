@@ -1,2 +1,2 @@
-# lolman707.com
+# [https://lolman707.net](lolman707.net)
 website web web
