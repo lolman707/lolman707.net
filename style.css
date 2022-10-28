@@ -22,7 +22,7 @@ body {
   font-weight: normal;
   font-size: 74px;
 }
-#navBar a, #navBar a:visited, #dotComLink a, #dotComLink a:visited {
+#navBar a, #navBar a:visited, #cornerLink a, #cornerLink a:visited {
   font-family: 'Lucida Sans Regular';
   color: #bbb;
   font-weight: 300;
@@ -30,10 +30,10 @@ body {
   text-transform: uppercase;
   text-decoration: none;
 }
-#navBar a:hover, #navBar #navc, #dotComLink a:hover {
+#navBar a:hover, #navBar #navc, #cornerLink a:hover {
   color: #fff;
 }
-#dotComLink {
+#cornerLink {
   text-align: right !important;
   position: fixed;
   bottom: 0pt; 
