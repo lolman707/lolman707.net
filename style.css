@@ -9,7 +9,7 @@ body {
   font-size: 68px;
   color: #ff6800;
   text-decoration: none;
-  font-family: 'Lucida Sans Typewriter';
+  font-family: 'Lucida Sans Typewriter', 'Lucida Console', monospace;
 }
 #navBar {
   width: 100%;
@@ -23,7 +23,7 @@ body {
   font-size: 74px;
 }
 #navBar a, #navBar a:visited, #cornerLink a, #cornerLink a:visited {
-  font-family: 'Lucida Sans Regular';
+  font-family: 'Lucida Sans Regular', Verdana, Tahoma, sans-serif;
   color: #bbb;
   font-weight: 300;
   font-size: 16px;
@@ -43,16 +43,16 @@ body {
 }
 #textWall h1 {
   color: #fff;
-  font-family: 'Lucida Sans Regular';
+  font-family: 'Lucida Sans Regular', Verdana, Tahoma, sans-serif;
 }
 #textWall p, li {
   color: #dedede !important;
-  font-family: 'Lucida Sans Regular';
+  font-family: 'Lucida Sans Regular', Verdana, Tahoma, sans-serif;
 }
 #textWall a, #textWall a:visited {
   line-height: 1.5;
   list-style: none;
-  font-family: 'Lucida Sans Regular';
+  font-family: 'Lucida Sans Regular', Verdana, Tahoma, sans-serif;
   color: #2e82ff;
   text-decoration: none;
 }
