@@ -6,10 +6,10 @@ body {
   align-items: center;
 }
 #dotNet a, #dotNet a:visited {
-  font-size: 68px;
+  font-size: 74px;
   color: #ff6800;
   text-decoration: none;
-  font-family: 'Lucida Sans Typewriter', 'Lucida Console', monospace;
+  font-family: Consolas, 'Lucida Sans Typewriter', 'Lucida Console', monospace;
 }
 #navBar {
   width: 100%;
@@ -23,7 +23,7 @@ body {
   font-size: 74px;
 }
 #navBar a, #navBar a:visited, #cornerLink a, #cornerLink a:visited {
-  font-family: 'Lucida Sans Regular', Verdana, Tahoma, sans-serif;
+  font-family: Verdana, Tahoma, Geneva, sans-serif;
   color: #bbb;
   font-weight: 300;
   font-size: 16px;
@@ -43,16 +43,16 @@ body {
 }
 #textWall h1 {
   color: #fff;
-  font-family: 'Lucida Sans Regular', Verdana, Tahoma, sans-serif;
+  font-family: Verdana, Tahoma, Geneva, sans-serif;
 }
 #textWall p, li {
   color: #dedede !important;
-  font-family: 'Lucida Sans Regular', Verdana, Tahoma, sans-serif;
+  font-family: Verdana, Tahoma, Geneva, sans-serif;
 }
 #textWall a, #textWall a:visited {
   line-height: 1.5;
   list-style: none;
-  font-family: 'Lucida Sans Regular', Verdana, Tahoma, sans-serif;
+  font-family: Verdana, Tahoma, Geneva, sans-serif;
   color: #2e82ff;
   text-decoration: none;
 }
@@ -66,16 +66,4 @@ body {
 }
 #HCB_comment_box h3 {
   font-size: 0px;
-}
-@font-face { 
-  font-family: "Lucida Sans Regular";
-  font-style: normal;
-  font-weight: normal;
-  src: url(/stuff/fonts/LSANS.woff);
-}
-@font-face { 
-  font-family: "Lucida Sans Typewriter";
-  font-style: normal;
-  font-weight: normal;
-  src: url(/stuff/fonts/LTYPE.woff);
 }
